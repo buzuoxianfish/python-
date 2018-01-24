@@ -1,0 +1,18 @@
+1.数据类型：
+整数。浮点数。字符串。布尔值。None。变量。常量
+转义：r'',''' '''
+除法：/和//（整除）
+取余：%
+计算机内存中统一使用Unicode
+ord()和chr()获取字符在内存中的整数值以及整数表示的汉字
+格式符：%d 整数 %s 字符串 %f 浮点数 %x 十六进制 %% 单纯的%符号
+input():返回的是字符串
+条件：if-elif-else if x: ---如果x为非空，就为true
+循环：（1）for x in list/tuple:
+          把列表中每个元素带入x，然后执行语句
+     （2）range()可以生成整数序列 for i in range(number)  
+      (3)while。。只要条件满足，循环
+    break 退出循环
+   continue 跳出本次循环
+   break，continue必须配合if语句
+   
