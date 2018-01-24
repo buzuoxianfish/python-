@@ -1,0 +1,22 @@
+dictionary：字典，在其他语言称为map
+d={key1:value1,key2:value2}
+索引：d[key]
+用in判断是否存在key 例如：>>>'a' in d 返回布尔值
+d.get('th',-1):如果没有th这个key，则返回-1
+删除：d.pop(key值)
+ dict 的key为不可变对象，所以不能为list列表
+ 
+ set：无序无重复的一组key集合，没有value
+ 定义：s = set([1,2,3])要创建一个set，需要提供list作为输入集合，相当于一个载体
+ 增：s.add(key)
+ 删：s.remove(key)
+ 
+ set与set之间的运算：
+ 交（&）：返回重复的key
+ 并(|)：返回两个所以的key，相同的key只保留一个
+ 
+ 
+ set与dict唯一区别：仅仅只是set没有value
+ 
+ 总结：dict={},s=set(())/s=set([])
+ 
