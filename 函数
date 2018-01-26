@@ -28,7 +28,23 @@
           格式：1.def person(name,age,*,city)--->中间用*分隔
                2.若在前面已有可变参数，则不用*来分隔了 def person(name,*age,city)->city为命名关键字参数
                
-               
-最后大总结：参数顺序：必选>默参>可变参>命名关键>关键
+递归函数：在函数内部，调用自身
+        例如：def fact(n):-->n的阶乘
+                if n==1:
+                        return 1
+                 return n*fact(n-1)
+        尾递归：返回的不是表达式
+                def fact(n):
+                        return fact_iter(n,1)
+                def fact_iter(num,x):
+                        if num==1:
+                                return x
+                        return fact(num-1,num*x)
+                
+
+
+
+最后大总结：
+参数顺序：必选>默参>可变参>命名关键>关键
 对于任何函数，都可使用func(*args,**kw)-->tuple,dict
                 
